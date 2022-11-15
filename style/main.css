@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, span, button {
+    display: inline-block;
+    text-decoration: none;
+}
+
+:root{
+    --primary-background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    --color-green: #30C88F;
+    --color-blue: #2D314D;
+    --color-silver: #9597A5;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,185 @@
+:root{
+    --primary-background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    --color-green: #30C88F;
+    --color-blue: #2D314D;
+    --color-silver: #9597A5;
+}
+
+header{
+    padding: 250px 0px 200px;
+    background-color: #F2F2F2;
+    position: relative;
+
+}
+
+nav{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+}
+
+.header-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.header-nav-wrapper-links a{
+    padding: 30px 15px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.107692px;
+    color: #9597A5;
+}
+
+.header-nav-btn{
+    background: var(--primary-background); 
+    border-radius: 22px;
+    padding: 10px 35px;
+    border: 1px solid transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header-content{
+    width: 450px;
+}
+
+.header-content h1{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2D314D;
+    margin-bottom: 25px;
+}
+.header-content p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 25px;
+}
+.header-content button{
+    background: var(--primary-background); 
+    border-radius: 22px;
+    padding: 10px 35px;
+    border: 1px solid transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header-phone{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.header-nav-mobile{
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    header {
+        padding: 400px 0px 200px;
+        background: url('../assets/header/phones-mobile.svg') no-repeat top center, #F2F2F2;
+        position: relative;
+    }
+
+    nav {
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+        top: 0;
+        padding: 20px 0px;
+    }
+
+    .header-nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+    .header-nav-wrapper-links {
+        display: none;
+    }
+
+    .header-nav-btn {
+        display: none;
+    }
+
+    .header-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-content h1 {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: -0.714286px;
+        color: #2D314D;
+        margin-bottom: 25px;
+    }
+
+    .header-content p {
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: -0.234375px;
+        color: #9597A5;
+        margin-bottom: 25px;
+
+    }
+
+    .header-content button {
+        background: var(--primary-background);
+        border-radius: 22px;
+        padding: 10px 35px;
+        border: 1px solid transparent;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .header-nav-mobile{
+        display: inline-block;
+        background-color: #fff;
+        border: 1px solid transparent;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-nav-mobile span{
+        width: 24px;
+        background-color: #000;
+        height: 1px;
+        margin-bottom: 5px;
+    }
+
+
+}
